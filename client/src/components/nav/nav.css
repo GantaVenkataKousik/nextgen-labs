@@ -20,7 +20,7 @@
 }
 .nav .logo i {
   transform: rotate(135deg);
-  font-size: 1.4rem;
+  font-size: 1.45rem;
 }
 .nav .logo,
 .nav .searchProfile {
@@ -63,12 +63,21 @@
   background: #fff;
   color: #000;
   transition: 0.5s;
-  width: 80%;
+  width: 85%;
 }
 
 .nav .searchProfile i {
-  font-size: 1.3rem;
-  border: 1px solid black;
-  padding: 0.5rem;
+  font-size: 1.4rem;
+
   border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .nav .tags,
+  .nav .searchProfile {
+    display: none;
+  }
+  .nav {
+    width: 90%;
+  }
 }
