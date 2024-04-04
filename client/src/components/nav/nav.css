@@ -1,0 +1,74 @@
+.nav {
+  background: #80d698;
+  height: 5vh;
+  border-radius: 0.5rem;
+  padding: 0rem 1.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 3vh;
+  font-size: 1.33rem;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nav .elements {
+  display: grid;
+  grid-template-columns: 15% 65% 20%;
+  align-items: center;
+  height: 5vh;
+}
+.nav .logo i {
+  transform: rotate(135deg);
+  font-size: 1.4rem;
+}
+.nav .logo,
+.nav .searchProfile {
+  margin: 0 auto;
+}
+
+.nav .tags {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav .tags,
+.nav .searchProfile {
+  display: flex;
+  align-items: center;
+}
+.nav .tags .active {
+  color: #000;
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+  font-size: 1.33rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.nav .searchProfile {
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav .searchProfile input {
+  height: 4vh;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.33rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
+  width: 80%;
+}
+
+.nav .searchProfile i {
+  font-size: 1.3rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
