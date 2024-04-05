@@ -1,10 +1,13 @@
 import React from 'react'
 import './style.css'
+import Main from './Main.jsx'
+import SecondMain from './SecondMain.jsx'
 
 function Info () {
   return (
-    <div className='ImageCon'>
-      <img src='./assets/images/home/1.jpg'></img>
+    <div className='Info'>
+      <Main />
+      <Main />
     </div>
   )
 }

@@ -1,0 +1,10 @@
+.Cone {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+.Cone .Info {
+  margin-top: 10vh;
+}

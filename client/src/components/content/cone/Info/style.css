@@ -6,3 +6,19 @@
   margin-top: 15vh;
   margin-left: 5vw;
 }
+.Main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.23rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Main div {
+  font-size: 1.2rem;
+  width: 45vw;
+  padding: 1.2rem 1.7rem;
+  background: linear-gradient(#e0dcdc, #eceaea);
+  border-radius: 1.4rem;
+}
