@@ -3,7 +3,7 @@
 .SecondMain {
   display: flex;
   font-family: 'Inria Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -15,9 +15,6 @@
   font-size: 1.1rem;
   width: 25vw;
   padding: 1rem 1.7rem;
-  background: linear-gradient(#95d8a8, #6dc184);
+  background: linear-gradient(#a4e4b6, #85d39a);
   border-radius: 1.2rem;
-  font-family: 'Inria Sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
 }
