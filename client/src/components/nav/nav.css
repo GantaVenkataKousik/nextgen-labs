@@ -1,5 +1,5 @@
 .nav {
-  background: #80d698;
+  background: linear-gradient(#95d8a8, #6dc184);
   height: 5vh;
   border-radius: 0.5rem;
   padding: 0rem 1.5rem;
@@ -12,6 +12,7 @@
   overflow: hidden;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
+  width: 85vw;
 }
 .nav .elements {
   display: grid;

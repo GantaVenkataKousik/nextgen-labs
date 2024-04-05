@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.SecondMain {
+  display: flex;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.First .con h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.23rem;
+}
+.First .con div {
+  font-size: 1.1rem;
+  width: 25vw;
+  padding: 1rem 1.7rem;
+  background: linear-gradient(#95d8a8, #6dc184);
+  border-radius: 1.2rem;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
