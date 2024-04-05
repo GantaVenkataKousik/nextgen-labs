@@ -11,12 +11,14 @@
   letter-spacing: 0.1rem;
   overflow: hidden;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav .elements {
   display: grid;
   grid-template-columns: 15% 65% 20%;
   align-items: center;
   height: 5vh;
+  z-index: 100;
 }
 .nav .logo i {
   transform: rotate(135deg);

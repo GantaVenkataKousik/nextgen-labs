@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.css'
-import Tags from './components/Tags' // Import the 'Tags' component
-import SearchProfile from './components/SearchProfile' // Import the 'SearchProfile' component
+import Tags from './components/Tags'
+import SearchProfile from './components/SearchProfile'
 
 function Nav () {
   return (
