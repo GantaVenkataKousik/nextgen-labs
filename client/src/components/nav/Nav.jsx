@@ -32,10 +32,12 @@ function Nav () {
         </div>
         {showMenu && (
           <ul className='responsive-menu'>
-            <Tags />
-            <li>
-              <i className='fa-solid fa-user'></i>
-            </li>
+            <div className='tags'>
+              <li className='active'>Home </li>
+              <li>About</li>
+              <li>Case Studies</li>
+              <li>Contact</li>
+            </div>
           </ul>
         )}
       </nav>
