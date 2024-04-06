@@ -43,4 +43,10 @@
   .Main {
     grid-row-gap: 3vh;
   }
+  .nav {
+    display: none;
+  }
+  .nav-responsive {
+    display: flex;
+  }
 }
