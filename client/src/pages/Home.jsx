@@ -5,7 +5,6 @@ import Content from '../components/content/Content'
 function Home () {
   return (
     <>
-      <Nav />
       <Content />
     </>
   )

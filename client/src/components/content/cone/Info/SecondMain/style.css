@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .SecondMain {
-  display: flex;
+  display: grid;
+  grid-template-columns: 45% 35%;
   font-family: 'Inria Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
+  align-items: flex-end;
 }
-
+.First .con {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  align-items: flex-end;
+}
 .First .con h1 {
   font-size: 1.8rem;
-  margin-bottom: 0.23rem;
+  font-weight: 500;
 }
 .First .con div {
   font-size: 1.1rem;
@@ -17,4 +26,27 @@
   padding: 1rem 1.7rem;
   background: linear-gradient(#a4e4b6, #85d39a);
   border-radius: 1.2rem;
+}
+.First .con div p {
+  margin-bottom: -0.2rem;
+}
+
+.Second img {
+  height: 16vh;
+  z-index: -10;
+}
+.Second .founderinfo {
+  padding: 0.8rem 1.7rem;
+  background: linear-gradient(#a4e4b6, #85d39a);
+  border-radius: 1.2rem;
+  width: 13vw;
+  z-index: 10000;
+}
+.Second .con h1,
+.Second .con h2,
+.Second .con p {
+  margin-bottom: -0.2rem;
+}
+.Second .con h1 {
+  font-weight: bold;
 }

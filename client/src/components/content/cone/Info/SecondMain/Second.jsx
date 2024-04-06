@@ -5,12 +5,14 @@ function Second () {
   return (
     <div className='Second'>
       <div className='con'>
-        <img></img>
         <div className='founder'>
-          <h1>Expertise</h1>
-          <p>Critical Rodent Surgeries.</p>
-          <p>Exclusive range of in -vivo experimentation.</p>
-          <p>502b(2) product development.</p>
+          <img src='./assets/images/home/sridevi.png'></img>
+          <div className='founderinfo'>
+            <h1>FOUNDER & CEO</h1>
+            <h1>K.M. SRIDEVI</h1>
+            <h2>Expert in Neuro Science</h2>
+            <p>10 years+ experience</p>
+          </div>
         </div>
       </div>
     </div>
