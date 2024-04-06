@@ -1,12 +1,46 @@
 @media screen and (max-width: 900px) {
-  .Cone {
-    display: flex;
-    flex-direction: column;
+  .nav .tags,
+  .nav .searchProfile {
+    display: none;
+  }
+  .nav {
     width: 90%;
+  }
+  .Cone {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(20vh, 2);
+  }
+  .Info {
+    grid-template-rows: repeat(auto, 2);
+  }
+  .SecondMain {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 2);
+  }
+  .First .con div,
+  .Second .founderinfo,
+  .Main div,
+  .Second {
+    width: auto;
+    margin: 0 auto;
+  }
+  .First .con h1 {
+    align-items: flex-start;
+  }
+  .ImageCon img {
+    width: 15rem;
+    height: 15rem;
     margin: 0 auto;
   }
   .Info {
-    display: flex;
-    flex-direction: column;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5vh;
+  }
+  .Main h1 {
+    font-weight: 500;
+    line-height: 4.5vh;
+  }
+  .Main {
+    grid-row-gap: 3vh;
   }
 }

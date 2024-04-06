@@ -3,8 +3,24 @@
   width: 25rem;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
+  animation: rotate 15s infinite ease-in-out;
   margin-left: 5vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.ImageCon img:hover {
+  animation: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+  100% {
+    transform: rotate(360deg);
+    transition: 0.5s;
+  }
 }
 .Main {
   display: grid;
