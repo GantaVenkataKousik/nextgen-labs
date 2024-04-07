@@ -6,7 +6,7 @@ import './style.css'
 function Ctwo () {
   return (
     <>
-      <div className='Vtwo'>
+      <div className='Ctwo'>
         <First />
         <Second />
       </div>

@@ -1,24 +1,32 @@
 .Ctwo {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 0 5vh;
+  margin: 5vh 5vw;
   align-items: center;
+  width: 90%;
+
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .First {
   display: grid;
-  grid-template-columns: 25% 25%;
-  align-items: center;
+  grid-template-columns: 30% 50% 20%;
+  align-items: flex-end;
+  grid-column-gap: 2vw;
 }
 
 .First .joined {
   display: grid;
   grid-template-rows: 60% 40%;
-  grid-row-gap: 1.2vh;
-  padding: 1.3rem 2.3rem;
+  grid-row-gap: 1vh;
+
+  padding: 1.1rem 2.3rem;
   background: linear-gradient(#e0dcdc, #eceaea);
   border-radius: 1.2rem;
-  width: 13vw;
+  justify-content: center;
+  align-items: center;
 }
 .First .joined .members {
   display: flex;
@@ -36,12 +44,40 @@
 }
 
 .First .aim {
-  padding: 0.8rem 1.7rem;
+  padding: 1.1rem 2.3rem;
   background: linear-gradient(#e0dcdc, #eceaea);
   border-radius: 1.2rem;
-  width: 13vw;
 }
 .First .joined .headline {
   font-size: 1.4rem;
   font-weight: 500;
+}
+.First .aim {
+  width: auto;
+  font-size: 1.2rem;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.SecondCtwo {
+  display: grid;
+  grid-template-columns: 30% 30% 35%;
+}
+
+.SecondCtwo .explore {
+  background: linear-gradient(#e0dcdc, #eceaea);
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #fff;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.SecondCtwo .dots {
+  background: #85d39a;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
 }

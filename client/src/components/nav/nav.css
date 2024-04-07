@@ -12,6 +12,7 @@
     Arial, sans-serif;
   width: 85vw;
   margin: 0 auto;
+  margin-bottom: 5vh;
 }
 .nav .elements {
   display: grid;

@@ -70,4 +70,11 @@
     display: block;
     height: auto;
   }
+
+  .SecondMain .First {
+    grid-template-columns: 100%;
+  }
+  .ImageCon {
+    margin-top: 3vh;
+  }
 }
