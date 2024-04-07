@@ -48,6 +48,10 @@
 .Second .con p {
   margin-bottom: -0.2rem;
 }
+.Second .con h1,
+.Second .con h2 {
+  font-size: 1.2rem;
+}
 .Second .con h1 {
   font-weight: bold;
 }

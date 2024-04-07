@@ -82,4 +82,32 @@
   .ImageCon {
     margin-top: 3vh;
   }
+
+  .Ctwo,
+  .Ctwo-First,
+  .SecondCtwo {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 2);
+    grid-row-gap: 2vh;
+  }
+  .Ctwo {
+    grid-row-gap: 4vh;
+  }
+  .Ctwo-First .joined,
+  .Ctwo-First .aim {
+    height: auto;
+  }
+  .TrustedCompanies {
+    width: 100%;
+  }
+  .TrustedCompanies .companiesList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .TrustedCompanies .companiesList img {
+    margin: 0;
+  }
+  .TrustedCompanies .companiesList img {
+    margin: 0rem;
+  }
 }

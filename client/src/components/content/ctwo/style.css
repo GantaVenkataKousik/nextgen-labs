@@ -6,7 +6,6 @@
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
-
   justify-content: center;
   align-items: center;
 }
@@ -112,5 +111,8 @@
   color: #85d39a;
 }
 .SecondCtwo .watch h3 {
+  font-size: 1.2rem;
+}
+.SecondCtwo .explore h2 {
   font-size: 1.2rem;
 }
