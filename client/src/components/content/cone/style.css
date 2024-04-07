@@ -1,6 +1,5 @@
 .Cone {
   display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 10vw;
+  grid-template-columns: 5% 30% 60% 5%;
   align-items: center;
 }

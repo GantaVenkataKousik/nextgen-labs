@@ -10,13 +10,13 @@
   cursor: pointer;
   font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
-  width: 85vw;
+  width: 90vw;
   margin: 0 auto;
   margin-bottom: 5vh;
 }
 .nav .elements {
   display: grid;
-  grid-template-columns: 15% 65% 20%;
+  grid-template-columns: 15% 5% 60% 5% 15%;
   align-items: center;
   height: 5vh;
   z-index: 100;

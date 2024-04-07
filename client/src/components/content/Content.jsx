@@ -3,6 +3,7 @@ import Cone from './cone/Cone.jsx'
 import Ctwo from './ctwo/Ctwo.jsx'
 import './responsive.css'
 import './style.css'
+import TrustedCompanies from './TrustedCompanies/TrustedCompanies.jsx'
 
 function Content () {
   return (
@@ -11,6 +12,7 @@ function Content () {
         <Cone></Cone>
         <Ctwo></Ctwo>
       </div>
+      <TrustedCompanies></TrustedCompanies>
     </>
   )
 }

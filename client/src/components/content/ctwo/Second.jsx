@@ -11,7 +11,8 @@ function Second () {
       </div>
 
       <div className='watch'>
-        <div className='watchbutton'></div>
+        <i className='fa-solid fa-play'></i>
+        <div className='triangle'> </div>
         <h3>Watch Case Studies</h3>
       </div>
     </div>

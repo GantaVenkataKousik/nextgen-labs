@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from '../components/nav/Nav'
 import Content from '../components/content/Content'
+import './style.css'
 
 function Home () {
   return (
     <>
-      <Content />
+      <div className='home'>
+        <Content />
+      </div>
     </>
   )
 }

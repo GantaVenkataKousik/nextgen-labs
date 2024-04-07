@@ -4,7 +4,7 @@
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   animation: rotate 15s infinite ease-in-out;
-  margin-left: 5vw;
+
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .ImageCon img:hover {
@@ -36,7 +36,6 @@
 .Main div {
   line-height: 1.6rem;
   font-size: 1.28rem;
-  width: 45vw;
   padding: 1rem 1.7rem;
   background: linear-gradient(#e0dcdc, #eceaea);
   border-radius: 1.2rem;

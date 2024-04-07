@@ -16,7 +16,9 @@ function Nav () {
           <div className='logo'>
             <i class='fa-solid fa-dna'></i>
           </div>
+          <div></div>
           <Tags />
+          <div></div>
           <SearchProfile />
         </ul>
       </nav>

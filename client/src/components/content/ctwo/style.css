@@ -1,58 +1,58 @@
 .Ctwo {
   display: grid;
-  grid-template-columns: 50% 50%;
-  margin: 5vh 5vw;
-  align-items: center;
-  width: 90%;
-
+  grid-template-columns: 5% 42.5% 5% 42.5% 5%;
+  margin: 5vh 0;
+  width: 90vw;
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.First {
+.Ctwo-First {
   display: grid;
-  grid-template-columns: 30% 50% 20%;
+  grid-template-columns: 30% 60% 10%;
   align-items: flex-end;
   grid-column-gap: 2vw;
 }
 
-.First .joined {
+.Ctwo-First .joined {
   display: grid;
-  grid-template-rows: 60% 40%;
-  grid-row-gap: 1vh;
-
+  grid-template-rows: 70% 30%;
   padding: 1.1rem 2.3rem;
   background: linear-gradient(#e0dcdc, #eceaea);
   border-radius: 1.2rem;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 13vh;
 }
-.First .joined .members {
+.Ctwo-First .joined .members {
   display: flex;
 }
-.First .joined img {
+.Ctwo-First .joined img {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   margin-left: -1rem;
 }
 
-.First .headline {
+.Ctwo-First .headline {
   font-size: 1.2rem;
-  text-align: center;
 }
 
-.First .aim {
+.Ctwo-First .aim {
+  height: 13vh;
   padding: 1.1rem 2.3rem;
   background: linear-gradient(#e0dcdc, #eceaea);
   border-radius: 1.2rem;
 }
-.First .joined .headline {
+.Ctwo-First .joined .headline {
   font-size: 1.4rem;
   font-weight: 500;
 }
-.First .aim {
+.Ctwo-First .aim {
   width: auto;
   font-size: 1.2rem;
   font-family: 'Inria Sans', sans-serif;
@@ -62,22 +62,55 @@
 
 .SecondCtwo {
   display: grid;
-  grid-template-columns: 30% 30% 35%;
+  grid-template-columns: 5% 35% 40%;
+  grid-column-gap: 2vw;
+  cursor: pointer;
 }
-
-.SecondCtwo .explore {
+.SecondCtwo .explore:hover,
+.SecondCtwo .watch:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.SecondCtwo .explore,
+.SecondCtwo .watch {
   background: linear-gradient(#e0dcdc, #eceaea);
-  padding: 0.5rem 0.8rem;
+  padding: 0.35rem 0.7rem;
   border: 2px solid #fff;
   border-radius: 10rem;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
+  height: 5.5vh;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width: auto;
+  transition: 0.5s;
 }
 .SecondCtwo .dots {
   background: #85d39a;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
+}
+.SecondCtwo .watch {
+  padding: 0.35rem 1rem;
+}
+.SecondCtwo .watch .watchbutton {
+  background: #e0dcdc;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.SecondCtwo .watch {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.SecondCtwo .watch i {
+  font-size: 2.1rem;
+  color: #85d39a;
+}
+.SecondCtwo .watch h3 {
+  font-size: 1.2rem;
 }

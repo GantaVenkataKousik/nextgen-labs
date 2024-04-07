@@ -7,8 +7,11 @@ function Ctwo () {
   return (
     <>
       <div className='Ctwo'>
+        <div></div>
         <First />
+        <div></div>
         <Second />
+        <div></div>
       </div>
     </>
   )

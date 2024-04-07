@@ -3,7 +3,7 @@ import './style.css'
 
 function First () {
   return (
-    <div className='First'>
+    <div className='Ctwo-First'>
       <div className='joined'>
         <div className='members'>
           <img src='./assets/images/home/kousik.jpg'></img>

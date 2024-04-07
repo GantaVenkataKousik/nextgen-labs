@@ -2,7 +2,7 @@
 
 .SecondMain {
   display: grid;
-  grid-template-columns: 45% 35%;
+  grid-template-columns: 60% 40%;
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   font-style: normal;

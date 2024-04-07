@@ -7,8 +7,10 @@ function Cone () {
   return (
     <>
       <div className='Cone'>
+        <div></div>
         <ImageCon />
         <Info />
+        <div></div>
       </div>
     </>
   )

@@ -1,4 +1,9 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
+  .ImageCon img {
+  }
+}
+
+@media screen and (max-width: 1100px) {
   .nav .tags,
   .nav .searchProfile {
     display: none;
