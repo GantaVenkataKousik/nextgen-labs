@@ -1,0 +1,47 @@
+.Ctwo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 5vh;
+  align-items: center;
+}
+
+.First {
+  display: grid;
+  grid-template-columns: 25% 25%;
+  align-items: center;
+}
+
+.First .joined {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  grid-row-gap: 1.2vh;
+  padding: 1.3rem 2.3rem;
+  background: linear-gradient(#e0dcdc, #eceaea);
+  border-radius: 1.2rem;
+  width: 13vw;
+}
+.First .joined .members {
+  display: flex;
+}
+.First .joined img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: -1rem;
+}
+
+.First .headline {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.First .aim {
+  padding: 0.8rem 1.7rem;
+  background: linear-gradient(#e0dcdc, #eceaea);
+  border-radius: 1.2rem;
+  width: 13vw;
+}
+.First .joined .headline {
+  font-size: 1.4rem;
+  font-weight: 500;
+}

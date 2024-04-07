@@ -3,4 +3,5 @@
   grid-template-columns: 30% 70%;
   gap: 10vw;
   height: 45vh;
+  align-items: center;
 }

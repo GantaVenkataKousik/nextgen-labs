@@ -7,7 +7,6 @@ function Content () {
   return (
     <>
       <Cone></Cone>
-      <Ctwo></Ctwo>
     </>
   )
 }

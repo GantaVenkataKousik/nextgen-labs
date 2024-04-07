@@ -21,7 +21,7 @@
   font-weight: 500;
 }
 .First .con div {
-  font-size: 1.1rem;
+  font-size: 1.23rem;
   width: 25vw;
   padding: 1rem 1.7rem;
   background: linear-gradient(#a4e4b6, #85d39a);
@@ -39,8 +39,9 @@
   padding: 0.8rem 1.7rem;
   background: linear-gradient(#a4e4b6, #85d39a);
   border-radius: 1.2rem;
-  width: 13vw;
+  width: 15vw;
   z-index: 10000;
+  font-size: 1.17rem;
 }
 .Second .con h1,
 .Second .con h2,
