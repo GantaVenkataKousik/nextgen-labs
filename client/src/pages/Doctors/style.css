@@ -1,0 +1,24 @@
+.Doctors {
+  font-weight: 500;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  margin: 10vh 0;
+  margin: 10vh auto;
+}
+.Doctors h1 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+.Doctors h3 {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+.Doctors .doctorsInfo {
+  margin: 7vh 0;
+  display: grid;
+  grid-template-columns: 5% 25% 5% 25% 40%;
+  cursor: pointer;
+}
