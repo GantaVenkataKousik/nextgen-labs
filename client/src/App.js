@@ -9,6 +9,7 @@ import Doctors from './pages/Doctors/Doctors'
 import Branches from './pages/Branches/Branches'
 import Founder from './pages/Founder/Founder'
 import Footer from './pages/Footer/Footer'
+import Reviews from './pages/Reviews/Reviews'
 
 function App () {
   const [showMenu, setShowMenu] = useState(false)
@@ -25,6 +26,8 @@ function App () {
       <CaseStudies />
       <Doctors></Doctors>
       <Branches></Branches>
+
+      <Reviews></Reviews>
       <Founder></Founder>
       <Footer></Footer>
     </div>

@@ -3,6 +3,7 @@ import './style.css'
 import './responsive.css'
 import Doctor from './components/Doctor'
 import ScrollButton from './components/ScrollButton'
+import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 
 function CaseStudies () {
   return (
@@ -18,15 +19,13 @@ function CaseStudies () {
           even more bigger .
         </h3>
         <div className='doctorsInfo'>
-          <div></div>
           <Doctor></Doctor>
           <div></div>
           <Doctor></Doctor>
           <div></div>
+          <Doctor></Doctor>
         </div>
-        <div className='scroll-buttons'>
-          <ScrollButton></ScrollButton>
-        </div>
+        <ScrollBtns></ScrollBtns>
       </div>
     </>
   )
