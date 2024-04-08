@@ -1,0 +1,52 @@
+.Component {
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
+  height: 65vh;
+  width: 25vw;
+  border-radius: 1.5rem;
+  padding: 1.3rem;
+  cursor: pointer;
+  font-weight: 500;
+  justify-content: center;
+}
+.Component img {
+  height: 50%;
+  width: 100%;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+  margin: 0 auto;
+}
+.Component .category {
+  padding: 0.3rem 1.2rem;
+  border-radius: 1.4rem;
+  background: linear-gradient(#a4e4b6, #85d39a);
+  width: 50%;
+  margin: 1.1rem 0;
+}
+.Component .category h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.Component .info {
+  font-size: 1.2rem;
+}
+
+.Component .info h2 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.Component .info p {
+  margin-bottom: 0.3rem;
+}
+
+.Component .readmore {
+  text-align: end;
+  color: #85d39a;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
