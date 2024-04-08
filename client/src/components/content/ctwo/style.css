@@ -1,7 +1,7 @@
 .Ctwo {
   display: grid;
   grid-template-columns: 5% 42.5% 5% 42.5% 5%;
-  margin: 5vh 0;
+  margin: 6vh 0;
   width: 90vw;
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
@@ -130,5 +130,4 @@
 }
 .Ctwo-First .joined .headline {
   margin-left: -1rem;
-  margin-top: 0.7rem;
 }
