@@ -1,0 +1,41 @@
+.about {
+  margin: 0 auto;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about .about-content {
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
+  border-radius: 1.2rem;
+  padding: 4rem 7rem;
+  font-size: 1.3rem;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 1.2rem 0;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.about-content {
+  position: relative;
+}
+.about .dtwo {
+  position: absolute;
+  top: 5vh;
+  right: -10vh;
+}
+.about .deone {
+  position: absolute;
+  bottom: 5vh;
+  left: -10vh;
+}

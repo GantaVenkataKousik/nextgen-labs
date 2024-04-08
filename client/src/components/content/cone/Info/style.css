@@ -37,7 +37,11 @@
   line-height: 1.6rem;
   font-size: 1.28rem;
   padding: 1rem 1.7rem;
-  background: linear-gradient(#e0dcdc, #eceaea);
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
   border-radius: 1.2rem;
 }
 

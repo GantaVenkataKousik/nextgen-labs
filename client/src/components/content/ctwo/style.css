@@ -21,7 +21,11 @@
   display: grid;
   grid-template-rows: 70% 30%;
   padding: 1.1rem 2.3rem;
-  background: linear-gradient(#e0dcdc, #eceaea);
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
   border-radius: 1.2rem;
   justify-content: flex-start;
   align-items: flex-start;
@@ -44,7 +48,11 @@
 .Ctwo-First .aim {
   height: 13vh;
   padding: 1.1rem 2.3rem;
-  background: linear-gradient(#e0dcdc, #eceaea);
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
   border-radius: 1.2rem;
 }
 .Ctwo-First .joined .headline {
@@ -72,7 +80,11 @@
 }
 .SecondCtwo .explore,
 .SecondCtwo .watch {
-  background: linear-gradient(#e0dcdc, #eceaea);
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
   padding: 0.35rem 0.7rem;
   border: 2px solid #fff;
   border-radius: 10rem;

@@ -1,0 +1,23 @@
+.box {
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
+  padding: 0.5rem 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 6.5vh;
+  width: 9vw;
+  transition: 0.5s;
+  background: blur 20px;
+}
+.box-circle {
+  background: #85d39a;
+  height: 2.7rem;
+  width: 2.7rem;
+  border-radius: 50%;
+}
