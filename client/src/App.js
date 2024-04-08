@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { Element } from 'react-scroll'
+import { Element, Link } from 'react-scroll'
 import Home from './pages/Home'
 import Nav from './components/nav/Nav'
 import About from './pages/About/About'
@@ -11,10 +11,17 @@ import Branches from './pages/Branches/Branches'
 import Founder from './pages/Founder/Founder'
 import Footer from './pages/Footer/Footer'
 import Reviews from './pages/Reviews/Reviews'
+import TopButton from './components/TopButton/TopButton'
+import './topButton.css'
 
 function App () {
   return (
     <div>
+      <div className='btn'>
+        <Link to='home' smooth={true} duration={3000}>
+          <i className='fa-solid fa-play'></i>
+        </Link>
+      </div>
       <Nav />
       <Element name='home'>
         <Home />
