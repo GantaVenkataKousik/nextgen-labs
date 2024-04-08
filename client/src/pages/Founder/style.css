@@ -11,8 +11,86 @@
   font-weight: 500;
   margin-bottom: 1vh;
 }
-.Founder h3 {
+.Founder .tag {
   text-align: center;
   font-size: 1.15rem;
   font-weight: 500;
+  margin-bottom: 5vh;
+}
+.Founder .founderDetails {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 10% 40% 2% 48%;
+  align-items: center;
+  margin: 0 auto;
+}
+.Founder .founder .info {
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.5),
+    rgba(236, 234, 234, 0.5)
+  );
+  border-radius: 1.5rem;
+  padding: 1.2rem 1.8rem;
+  width: 60%;
+}
+.Founder .founder img {
+  height: 30vh;
+  width: 50%;
+}
+.Founder .founder h2 {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.Founder .founder h3 {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+.Founder .motive {
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.5),
+    rgba(236, 234, 234, 0.5)
+  );
+  border-radius: 1.5rem;
+  padding: 1.2rem 1.8rem;
+  width: 80%;
+}
+
+.Founder .motive .content {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  width: 85%;
+}
+@media screen and (max-width: 550px) {
+  .Founder .founderDetails {
+    padding: 5%;
+    width: 100vw;
+    grid-template-columns: 100%;
+  }
+  .Founder .founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+  }
+  .Founder .founder .info {
+    width: 100%;
+  }
+  .Founder .motive {
+    margin-top: 5vh;
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .Founder .founder img {
+    width: 60%;
+  }
+
+  .Founder .motive .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
