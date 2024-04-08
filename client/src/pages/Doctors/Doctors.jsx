@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import './responsive.css'
 
 function CaseStudies () {
   return (

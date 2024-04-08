@@ -1,0 +1,38 @@
+@media screen and (max-width: 1100px) {
+  .CaseStudies {
+    width: 100vw;
+  }
+  .CaseStudies .components {
+    padding: 0 3%;
+  }
+  .CaseStudies .Component {
+    width: 100%;
+    height: auto;
+    padding: 3.5%;
+    word-wrap: break-word;
+  }
+  .CaseStudies .Component .category h3 {
+    font-size: 1.35rem;
+  }
+  .CaseStudies .components {
+    flex-direction: column;
+  }
+  .Component .category {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+  .Component img {
+    height: 30vh;
+  }
+  .Component .info h2 {
+    font-size: 1.6rem;
+  }
+  .Component .info p {
+    font-size: 1.14rem;
+  }
+  .Component .readmore {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+  }
+}

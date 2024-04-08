@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Component from './Components/Component'
 import ScrollBtn from './Components/ScrollBtn'
+import './responsive.css'
 
 function CaseStudies () {
   return (
