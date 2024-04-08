@@ -1,9 +1,12 @@
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 550px) {
   .Doctors .doctorsInfo {
     margin: 7vh 0;
     display: grid;
     grid-template-columns: 100%;
     cursor: pointer;
     padding: 0 4%;
+  }
+  .Doctors .scroll-buttons {
+    display: none;
   }
 }

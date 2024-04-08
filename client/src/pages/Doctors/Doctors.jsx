@@ -24,7 +24,9 @@ function CaseStudies () {
           <Doctor></Doctor>
           <div></div>
         </div>
-        <ScrollButton></ScrollButton>
+        <div className='scroll-buttons'>
+          <ScrollButton></ScrollButton>
+        </div>
       </div>
     </>
   )

@@ -1,0 +1,28 @@
+.Branches {
+  font-weight: 500;
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 500;
+  margin: 10vh 0;
+  margin: 10vh auto;
+}
+.Branches h1 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+.Branches h3 {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+.Branches .branchImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Branches img {
+  width: 70%;
+  height: 70vh;
+  margin: 5vh 0;
+}

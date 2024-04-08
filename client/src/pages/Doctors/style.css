@@ -21,4 +21,47 @@
   display: grid;
   grid-template-columns: 5% 25% 5% 25% 40%;
   cursor: pointer;
+  margin-bottom: 2vh;
+}
+
+.Doctors .scroll-buttons {
+  display: flex;
+  width: 85vw;
+  justify-content: flex-end;
+}
+.Doctors .scroll-buttons .buttons .button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(224, 220, 220, 0.7),
+    rgba(236, 234, 234, 0.7)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.Doctors .scroll-buttons .buttons .button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.Doctors .scroll-buttons .buttons .button i {
+  font-size: 2rem;
+  color: #85d39a;
+}
+.Doctors .scroll-buttons .buttons .left i {
+  transform: rotate(180deg);
+}
+.Doctors .scroll-buttons .buttons .right {
+  background: linear-gradient(#a4e4b6, #85d39a);
+}
+.Doctors .scroll-buttons .buttons .right i {
+  color: #fff;
+}
+.Doctors .scroll-buttons .buttons {
+  display: flex;
+  gap: 0.8rem;
+  cursor: pointer;
 }

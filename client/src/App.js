@@ -6,6 +6,7 @@ import Nav from './components/nav/Nav'
 import About from './pages/About/About'
 import CaseStudies from './pages/CaseStudies/CaseStudies'
 import Doctors from './pages/Doctors/Doctors'
+import Branches from './pages/Branches/Branches'
 
 function App () {
   const [showMenu, setShowMenu] = useState(false)
@@ -21,6 +22,7 @@ function App () {
       <About />
       <CaseStudies />
       <Doctors></Doctors>
+      <Branches></Branches>
     </div>
   )
 }

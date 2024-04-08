@@ -5,11 +5,11 @@ function ScrollButton () {
   return (
     <>
       <div className='buttons'>
-        <div className='left'>
-          <div className='tri1'></div>
+        <div className='left button'>
+          <i className='fa-solid fa-play'></i>
         </div>
-        <div className='right'>
-          <div className='tri2'></div>
+        <div className='right button'>
+          <i className='fa-solid fa-play'></i>
         </div>
       </div>
     </>
