@@ -11,12 +11,11 @@
   font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
   width: 90vw;
-  margin: 0 auto;
-  margin-bottom: 6.5vh;
+  margin: 4.5vh auto;
 }
 .nav .elements {
   display: grid;
-  grid-template-columns: 15% 5% 60% 5% 15%;
+  grid-template-columns: 5% 80% 15%;
   align-items: center;
   height: 5vh;
   z-index: 100;
@@ -32,9 +31,10 @@
 }
 
 .nav .tags {
-  width: 70%;
+  width: 75%;
   display: flex;
-  justify-content: space-between;
+  gap: 0.2rem;
+  justify-content: space-evenly;
   margin: 0 auto;
 }
 .nav .tags,
@@ -46,13 +46,32 @@
   color: #000;
   background: #fff;
   border-radius: 1.4rem;
-  padding: 0.2rem 1.4rem;
+  padding: 0.2rem 1.2rem;
+  font-size: 1.33rem;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 4.5vh;
+  display: flex;
+  width: 12vw;
+  align-items: center;
+  justify-content: center;
+}
+.nav .tags a {
+  width: 12vw;
+  transition: 0.5s;
+  border-radius: 1.4rem;
+  padding: 0.2rem 1.2rem;
   font-size: 1.33rem;
   cursor: pointer;
   transition: 0.5s;
   height: 4.5vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.nav .tags a:hover {
+  background: #fff;
+  width: 12vw;
 }
 .nav .searchProfile {
   justify-content: space-between;
@@ -87,34 +106,54 @@
 }
 .nav-responsive {
   display: none;
-  background: linear-gradient(#95d8a8, #6dc184);
-  height: 5vh;
-  border-radius: 0.5rem;
-  padding: 0rem 1.5rem;
-  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  width: 90vw;
-  margin: 0 auto;
-  font-size: 1.4rem;
-  cursor: pointer;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.6s;
 }
+@media screen and (max-width: 550px) {
+  .nav {
+    display: none;
+  }
+  .nav-responsive {
+    display: flex;
+    flex-direction: column;
+    transition: 0.6s;
+  }
+  .nav-responsive .logo,
+  .nav-responsive .tags a {
+    background: linear-gradient(#95d8a8, #6dc184);
 
-.menu-toggle {
-  cursor: pointer;
-  transition: 0.6s;
-}
-
-.menu-toggle.active {
-  transform: rotate(90deg);
-  transition: 0.6s;
-}
-.responsive-menu {
-  display: none;
-  transition: height 0.6s ease;
-}
-.responsive-menu .tags li {
-  display: none;
+    border-radius: 0.5rem;
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto,
+      Helvetica, Arial, sans-serif;
+    width: 90vw;
+    margin: 0.4vh auto;
+    font-size: 1.4rem;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+  }
+  .nav-responsive .tags a {
+    height: 5vh;
+    justify-content: center;
+    transition: 0.6s;
+  }
+  .nav-responsive {
+    margin: 5vh auto;
+    transition: 0.6s;
+  }
+  .nav-responsive .tags .active {
+    background: #fff;
+    border: 2px solid #6dc184;
+  }
+  .nav-responsive .logo {
+    height: 5vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 1vh auto;
+    padding: 0 1.2rem;
+    transition: 0.6s;
+  }
 }

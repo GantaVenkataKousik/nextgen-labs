@@ -54,7 +54,7 @@ function Footer () {
           <div></div>
           <div>
             <h3>Accepted payments : </h3>
-            <div>
+            <div className='payment'>
               <img src='./assets/images/payments/pay.png'></img>
             </div>
           </div>

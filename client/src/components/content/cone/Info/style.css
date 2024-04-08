@@ -3,8 +3,6 @@
   width: 25rem;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  animation: rotate 15s infinite ease-in-out;
-
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .ImageCon img:hover {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { Element } from 'react-scroll'
 import Home from './pages/Home'
 import Nav from './components/nav/Nav'
 import About from './pages/About/About'
@@ -12,24 +13,33 @@ import Footer from './pages/Footer/Footer'
 import Reviews from './pages/Reviews/Reviews'
 
 function App () {
-  const [showMenu, setShowMenu] = useState(false)
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu)
-  }
-
   return (
-    <div id={`${showMenu ? 'appshow' : 'app'}`}>
-      <Nav toggleMenu={toggleMenu} showMenu={showMenu} />
-      <Home />
-      <About />
-      <CaseStudies />
-      <Doctors></Doctors>
-      <Branches></Branches>
-
-      <Reviews></Reviews>
-      <Founder></Founder>
-      <Footer></Footer>
+    <div>
+      <Nav />
+      <Element name='home'>
+        <Home />
+      </Element>
+      <Element name='about'>
+        <About />
+      </Element>
+      <Element name='caseStudies'>
+        <CaseStudies />
+      </Element>
+      <Element>
+        <Doctors />
+      </Element>
+      <Element>
+        <Branches />
+      </Element>
+      <Element>
+        <Reviews />
+      </Element>
+      <Element>
+        <Founder />
+      </Element>
+      <Element name='contact'>
+        <Footer />
+      </Element>
     </div>
   )
 }
