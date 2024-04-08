@@ -33,9 +33,15 @@
     align-items: flex-start;
   }
   .ImageCon img {
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
     margin: 0 auto;
+  }
+  .ImageCon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
   }
   .Info {
     grid-template-rows: auto auto;
@@ -90,6 +96,18 @@
     grid-template-rows: repeat(auto, 2);
     grid-row-gap: 2vh;
   }
+  .SecondCtwo .explore,
+  .SecondCtwo .watch {
+    height: auto;
+  }
+  .Ctwo-First .joined {
+    align-items: center;
+    justify-content: center;
+  }
+  .Ctwo-First .joined .headline {
+    margin-left: -1rem;
+    margin-top: 0.7rem;
+  }
   .Ctwo {
     grid-row-gap: 4vh;
   }
@@ -109,5 +127,10 @@
   }
   .TrustedCompanies .companiesList img {
     margin: 0rem;
+  }
+
+  .ImageCon .img-dtwo,
+  .ImageCon .img-done {
+    display: none;
   }
 }

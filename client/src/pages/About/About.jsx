@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import DesignOne from '../../components/designs/designOne/DesignOne'
+import './responsive.css'
 
 function About () {
   return (
