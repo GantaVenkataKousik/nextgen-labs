@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import Component from './Components/Component'
-import ScrollBtn from './Components/ScrollBtn'
+import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 import './responsive.css'
 
 function CaseStudies () {
@@ -11,9 +11,9 @@ function CaseStudies () {
         <h1>Case Studies</h1>
         <div className='components'>
           <Component></Component>
-          <Component></Component>
-          <ScrollBtn></ScrollBtn>
+          <Component></Component> <Component></Component>
         </div>
+        <ScrollBtns></ScrollBtns>
       </div>
     </>
   )

@@ -24,6 +24,7 @@
 .nav .logo i {
   transform: rotate(135deg);
   font-size: 1.45rem;
+  color: #fff;
 }
 .nav .logo,
 .nav .searchProfile {
@@ -47,7 +48,6 @@
   border-radius: 1.4rem;
   padding: 0.2rem 1.4rem;
   font-size: 1.33rem;
-  letter-spacing: 0.1rem;
   cursor: pointer;
   transition: 0.5s;
   height: 4.5vh;
@@ -79,8 +79,11 @@
 }
 .nav .searchProfile i {
   font-size: 1.4rem;
-
+  color: #fff;
   border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 0.45rem;
+  margin-left: 0.4vw;
 }
 .nav-responsive {
   display: none;
