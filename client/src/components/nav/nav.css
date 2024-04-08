@@ -43,11 +43,7 @@
 }
 .nav .tags .active {
   color: #000;
-  background: linear-gradient(
-    to bottom,
-    rgba(224, 220, 220, 1),
-    rgba(236, 234, 234, 1)
-  );
+  background: #fff;
   border-radius: 1.4rem;
   padding: 0.2rem 1.4rem;
   font-size: 1.33rem;
@@ -72,18 +68,14 @@
   outline: none;
   transition: 0.5s;
   width: 85%;
-  background: linear-gradient(
-    to bottom,
-    rgba(224, 220, 220, 1),
-    rgba(236, 234, 234, 1)
-  );
+  background: #fff;
   display: flex;
   align-items: center;
 }
 .nav .searchProfile input::placeholder {
-  color: #000;
+  color: #414040;
   letter-spacing: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .nav .searchProfile i {
   font-size: 1.4rem;
