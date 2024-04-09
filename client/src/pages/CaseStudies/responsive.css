@@ -1,3 +1,9 @@
+@media screen and(max-width:1450px) {
+  .CaseStudies .Component {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .CaseStudies {
     width: 100vw;
