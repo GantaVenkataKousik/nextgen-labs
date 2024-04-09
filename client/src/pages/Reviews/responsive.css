@@ -1,7 +1,7 @@
 @media screen and (max-width: 550px) {
   .Reviews .regions {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     justify-content: space-between;
   }
   .Reviews .regions div {

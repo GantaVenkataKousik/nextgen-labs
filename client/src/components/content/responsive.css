@@ -3,7 +3,29 @@
     height: 19rem;
     width: 19rem;
   }
+  .Ctwo-First {
+    height: auto;
+    padding: auto;
+  }
+  .Ctwo-First .joined,
+  .Ctwo-First .aim {
+    height: 15vh;
+  }
+  .Ctwo-First {
+    grid-template-columns: 40% 60%;
+  }
+  .SecondCtwo {
+    grid-template-columns: 1% 45% 54%;
+  }
+  .SecondCtwo .explore,
+  .SecondCtwo .watch {
+    height: 6.5vh;
+  }
+  .nav .tags a {
+    width: 14vw;
+  }
 }
+
 @media screen and (max-width: 1100px) {
   .ImageCon img {
     height: 15rem;
@@ -11,6 +33,10 @@
   }
 }
 @media screen and (max-width: 550px) {
+  .Reviews .regions {
+    width: 95vw;
+    margin: 0 auto;
+  }
   .nav .tags,
   .nav .searchProfile {
     display: none;

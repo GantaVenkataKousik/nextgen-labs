@@ -4,8 +4,9 @@
     rgba(224, 220, 220, 0.7),
     rgba(236, 234, 234, 0.7)
   );
-  height: 65vh;
-  width: 25vw;
+
+  width: 25%;
+  height: 40%;
   border-radius: 1.5rem;
   padding: 1.3rem;
   cursor: pointer;

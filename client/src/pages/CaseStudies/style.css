@@ -14,8 +14,10 @@
   margin-bottom: 5vh;
 }
 .CaseStudies .components {
-  padding: 0 5rem;
+  padding: 0;
   display: flex;
+  justify-content: center;
+
   gap: 2.5rem;
 }
 .CaseStudies .scroll-buttons {
