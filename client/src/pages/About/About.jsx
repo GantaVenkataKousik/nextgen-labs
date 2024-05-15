@@ -37,16 +37,6 @@ function About () {
             consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
             consectetur adipl lorem lorem3 0
           </p>
-          <br></br>
-          <p>
-            {' '}
-            amet, consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
-            consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
-            consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
-            consectetur adipl lorem lorem30 liorem ipsum dolor sit amet,
-            consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
-            consectetur adipl lorem lorem30
-          </p>
         </div>
       </div>
     </>
