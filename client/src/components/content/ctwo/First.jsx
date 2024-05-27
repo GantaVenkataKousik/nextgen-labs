@@ -1,13 +1,13 @@
 import React from 'react'
 import './style.css'
 
-function First () {
+function First() {
   return (
     <div className='Ctwo-First'>
       <div className='joined'>
         <div className='members'>
           <img src='./assets/images/home/kousik.jpg'></img>
-          <img src='./assets/images/home/kousik2.jpg'></img>
+          <img src='./assets/images/home/k1.jpg'></img>
           <img src='./assets/images/home/kousik.jpg'></img>
         </div>
         <h2 className='headline'>10k+ Joined.</h2>

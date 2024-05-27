@@ -8,6 +8,7 @@
   font-style: normal;
   align-items: flex-end;
 }
+
 .First .con {
   display: grid;
   grid-template-rows: 10% 90%;
@@ -16,10 +17,12 @@
   font-style: normal;
   align-items: flex-end;
 }
+
 .First .con h1 {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
 .First .con div {
   font-size: 1.23rem;
   width: 25vw;
@@ -27,14 +30,16 @@
   background: linear-gradient(#a4e4b6, #85d39a);
   border-radius: 1.2rem;
 }
+
 .First .con div p {
   margin-bottom: -0.2rem;
 }
 
 .Second img {
-  height: 16vh;
+  height: 20vh;
   z-index: -10;
 }
+
 .Second .founderinfo {
   padding: 0.8rem 1.7rem;
   background: linear-gradient(#a4e4b6, #85d39a);
@@ -43,15 +48,18 @@
   z-index: 10000;
   font-size: 1.17rem;
 }
+
 .Second .con h1,
 .Second .con h2,
 .Second .con p {
   margin-bottom: -0.2rem;
 }
+
 .Second .con h1,
 .Second .con h2 {
   font-size: 1.2rem;
 }
+
 .Second .con h1 {
   font-weight: bold;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-function First () {
+function First() {
   return (
     <div className='First'>
       <div className='con'>

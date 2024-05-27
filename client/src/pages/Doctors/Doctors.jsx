@@ -5,7 +5,7 @@ import Doctor from './components/Doctor'
 import ScrollButton from './components/ScrollButton'
 import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 
-function CaseStudies () {
+function CaseStudies() {
   return (
     <>
       <div className='Doctors'>
@@ -19,11 +19,13 @@ function CaseStudies () {
           even more bigger .
         </h3>
         <div className='doctorsInfo'>
-          <Doctor></Doctor>
           <div></div>
           <Doctor></Doctor>
           <div></div>
           <Doctor></Doctor>
+          <div></div>
+          <Doctor></Doctor>
+          <div></div>
         </div>
         <ScrollBtns></ScrollBtns>
       </div>

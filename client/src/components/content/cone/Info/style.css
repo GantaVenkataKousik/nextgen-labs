@@ -1,45 +1,49 @@
 .ImageCon img {
-  height: 25rem;
-  width: 25rem;
+  height: 23rem;
+  width: 23rem;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .ImageCon img:hover {
   animation: none;
   transition: 0.5s;
   cursor: pointer;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
     transition: 0.5s;
   }
+
   100% {
     transform: rotate(360deg);
     transition: 0.5s;
   }
 }
+
 .Main {
   display: grid;
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
 }
+
 .Main h1 {
   font-size: 2.34rem;
   margin-bottom: 0.23rem;
   font-weight: 500;
 }
+
 .Main div {
   line-height: 1.6rem;
   font-size: 1.28rem;
   padding: 1rem 1.7rem;
-  background: linear-gradient(
-    to bottom,
-    rgba(224, 220, 220, 0.7),
-    rgba(236, 234, 234, 0.7)
-  );
+  background: linear-gradient(to bottom,
+      rgba(224, 220, 220, 0.7),
+      rgba(236, 234, 234, 0.7));
   border-radius: 1.2rem;
 }
 

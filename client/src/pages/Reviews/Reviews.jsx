@@ -4,7 +4,7 @@ import './responsive.css'
 import Review from './Review'
 import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 
-function Reviews () {
+function Reviews() {
   return (
     <>
       <div className='Reviews'>
@@ -20,13 +20,12 @@ function Reviews () {
           <div>China</div>
           <div>Japan</div>
         </div>
-        <div className='patients-reviews'>
+        <div className='patients-reviews'>          <div></div>
           <Review></Review>
           <div></div>
           <Review></Review>
           <div></div>
-          <Review></Review>
-          <div></div>
+          <Review></Review>          <div></div>
         </div>
         <ScrollBtns></ScrollBtns>
       </div>

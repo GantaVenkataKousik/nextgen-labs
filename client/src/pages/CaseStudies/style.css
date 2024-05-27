@@ -6,6 +6,7 @@
   width: 90vw;
   overflow: hidden;
 }
+
 .CaseStudies h1 {
   font-size: 1.8rem;
   font-weight: 500;
@@ -13,13 +14,15 @@
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
+
 .CaseStudies .components {
   padding: 0;
   display: flex;
   justify-content: center;
 
-  gap: 2.5rem;
+  gap: 5vw;
 }
+
 .CaseStudies .scroll-buttons {
   margin-top: 4vh;
 }

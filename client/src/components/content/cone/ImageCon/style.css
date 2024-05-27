@@ -1,9 +1,10 @@
 .ImageCon img {
-  height: 25rem;
-  width: 25rem;
+  height: 23rem;
+  width: 23rem;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .ImageCon {
   position: relative;
 }
@@ -13,6 +14,7 @@
   bottom: 4vh;
   left: -2vh;
 }
+
 .ImageCon .img-dtwo {
   position: absolute;
   top: 4vh;

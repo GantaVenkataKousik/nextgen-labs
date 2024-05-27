@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-function Second () {
+function Second() {
   return (
     <div className='Second'>
       <div className='con'>
@@ -9,7 +9,7 @@ function Second () {
           <img src='./assets/images/home/sridevi.png'></img>
           <div className='founderinfo'>
             <h1>FOUNDER & CEO</h1>
-            <h1>K.M. SRIDEVI</h1>
+            <h1>Dr. Vasista</h1>
             <h2>Expert in Neuro Science</h2>
             <p>10 years+ experience</p>
           </div>

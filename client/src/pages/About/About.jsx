@@ -3,7 +3,7 @@ import './style.css'
 import DesignOne from '../../components/designs/designOne/DesignOne'
 import './responsive.css'
 
-function About () {
+function About() {
   return (
     <>
       <div className='about' id='about'>
@@ -37,6 +37,11 @@ function About () {
             consectetur adipl lorem lorem30 lorem ipsum dolor sit amet,
             consectetur adipl lorem lorem3 0
           </p>
+          <p>            We are trying our best to bring to bring you the services at very
+            low cost possible . We are boosting our research work to complete as
+            fast as possible . We are trying our best to bring to bring you the
+            services at very low cost possible . We are boosting our research
+            work to complete as fast as possible .{' '}</p>
         </div>
       </div>
     </>
