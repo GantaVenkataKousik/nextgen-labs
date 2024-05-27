@@ -13,12 +13,17 @@ import Footer from './pages/Footer/Footer'
 import Reviews from './pages/Reviews/Reviews'
 import TopButton from './components/TopButton/TopButton'
 import './topButton.css'
+import useSound from 'use-sound';
+function App() {
+  const playSound = () => {
+    const audio = new Audio('/sounds/loud_btn_clk.wav');
+    audio.play();
+  };
 
-function App () {
   return (
     <div>
       <div className='btn'>
-        <Link to='home' smooth={true} duration={3000}>
+        <Link to='home' smooth={true} duration={3000} onClick={playSound}>
           <i className='fa-solid fa-play'></i>
         </Link>
       </div>

@@ -3,10 +3,17 @@ import './nav.css'
 import { Link } from 'react-scroll'
 import SearchProfile from './components/SearchProfile'
 
-function Nav () {
+function Nav() {
+
+  const playSound = () => {
+    const audio = new Audio('/sounds/buttonClick.mp3');
+    audio.play();
+  };
   const [showMenu, setShowMenu] = new useState(false)
 
   const toggleMenu = () => {
+    const audio = new Audio('/sounds/hover_quest.wav');
+    audio.play();
     setShowMenu(!showMenu)
   }
   return (
@@ -17,17 +24,16 @@ function Nav () {
             <i class='fa-solid fa-dna'></i>
           </div>
           <div className='tags'>
-            <Link to='home' smooth={true} duration={1000} className='active'>
+            <Link to='home' smooth={true} duration={1000} onClick={playSound} className='active'>
               Home
             </Link>
-            <Link to='about' smooth={true} duration={1000}>
+            <Link to='about' smooth={true} duration={1000} onClick={playSound}>
               About
             </Link>
-            {''}
-            <Link to='caseStudies' smooth={true} duration={2000}>
+            <Link to='caseStudies' smooth={true} duration={2000} onClick={playSound}>
               Case Studies
-            </Link>{' '}
-            <Link to='contact' smooth={true} duration={3000}>
+            </Link>
+            <Link to='contact' smooth={true} duration={3000} onClick={playSound}>
               Contact
             </Link>
           </div>
@@ -48,17 +54,16 @@ function Nav () {
         {showMenu && (
           <ul className='responsive-menu'>
             <div className='tags show'>
-              <Link to='home' smooth={true} duration={1000} className='active'>
+              <Link to='home' smooth={true} duration={1000} onClick={playSound} className='active'>
                 Home
               </Link>
-              <Link to='about' smooth={true} duration={1000}>
+              <Link to='about' smooth={true} duration={1000} onClick={playSound}>
                 About
               </Link>
-              {''}
-              <Link to='caseStudies' smooth={true} duration={2000}>
+              <Link to='caseStudies' smooth={true} duration={2000} onClick={playSound}>
                 Case Studies
-              </Link>{' '}
-              <Link to='contact' smooth={true} duration={3000}>
+              </Link>
+              <Link to='contact' smooth={true} duration={3000} onClick={playSound}>
                 Contact
               </Link>
             </div>
