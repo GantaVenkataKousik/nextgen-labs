@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import './responsive.css'
 
-function Footer () {
+function Footer() {
   return (
     <>
       <div className='Footer'>
@@ -58,6 +58,9 @@ function Footer () {
               <img src='./assets/images/payments/pay.png'></img>
             </div>
           </div>
+        </section>
+        <section className='sec4'>
+          <p>Made with  ❤  by   GantaVenkataKousik </p>
         </section>
       </div>
     </>
