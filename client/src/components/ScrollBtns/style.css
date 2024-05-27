@@ -1,44 +1,51 @@
 .scroll-buttons {
+  height: 6vh;
   display: flex;
   width: 85vw;
   justify-content: flex-end;
 }
+
 .scroll-buttons .buttons .button {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  background: linear-gradient(
-    to bottom,
-    rgba(224, 220, 220, 0.7),
-    rgba(236, 234, 234, 0.7)
-  );
+  background: linear-gradient(to bottom,
+      rgba(224, 220, 220, 0.7),
+      rgba(236, 234, 234, 0.7));
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
 }
+
 .scroll-buttons .buttons .button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
 }
+
 .scroll-buttons .buttons .button i {
   font-size: 2rem;
   color: #85d39a;
 }
+
 .scroll-buttons .buttons .left i {
   transform: rotate(180deg);
 }
+
 .scroll-buttons .buttons .right {
   background: linear-gradient(#a4e4b6, #85d39a);
 }
+
 .scroll-buttons .buttons .right i {
   color: #fff;
 }
+
 .scroll-buttons .buttons {
   display: flex;
   gap: 0.8rem;
   cursor: pointer;
 }
+
 @media screen and (max-width: 550px) {
   .scroll-buttons {
     display: none;
