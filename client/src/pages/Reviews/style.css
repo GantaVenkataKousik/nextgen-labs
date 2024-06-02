@@ -3,6 +3,7 @@
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   margin: 10vh auto;
+  width: 80%;
 }
 
 .Reviews h1 {
@@ -33,11 +34,11 @@
 
 .Reviews .patients-reviews {
   margin: 7vh;
-  display: grid;
-  grid-template-columns: 8.5% 25% 4% 25% 4% 25% 8.5%;
+  display: flex;
   justify-content: center;
   cursor: pointer;
   margin-bottom: 2vh;
+  gap: 2rem;
 }
 
 .Reviews .Review .dp {
@@ -65,7 +66,8 @@
       rgba(236, 234, 234, 0.5));
   border-radius: 1.5rem;
   padding: 1rem 1.8rem;
-  width: 100%;
+  width: 25vw;
+
 }
 
 .Reviews .Review h2 {
