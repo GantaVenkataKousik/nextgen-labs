@@ -20,12 +20,10 @@ function Reviews() {
           <div>China</div>
           <div>Japan</div>
         </div>
-        <div className='patients-reviews'>          <div></div>
+        <div className='patients-reviews'>
           <Review></Review>
-          <div></div>
           <Review></Review>
-          <div></div>
-          <Review></Review>          <div></div>
+          <Review></Review>
         </div>
         <ScrollBtns></ScrollBtns>
       </div>

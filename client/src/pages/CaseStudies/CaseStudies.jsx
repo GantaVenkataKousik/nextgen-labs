@@ -4,14 +4,15 @@ import Component from './Components/Component'
 import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 import './responsive.css'
 
-function CaseStudies () {
+function CaseStudies() {
   return (
     <>
       <div className='CaseStudies'>
         <h1>Case Studies</h1>
         <div className='components'>
           <Component></Component>
-          <Component></Component> <Component></Component>
+          <Component></Component>
+          <Component></Component>
         </div>
         <ScrollBtns></ScrollBtns>
       </div>

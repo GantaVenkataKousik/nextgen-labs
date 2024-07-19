@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './style.css'
 import './responsive.css'
 import Doctor from './components/Doctor'
-import ScrollButton from './components/ScrollButton'
 import ScrollBtns from '../../components/ScrollBtns/ScrollBtns'
 
 function CaseStudies() {
+  const doctorsInfoRef = useRef(null);
+
   return (
     <>
       <div className='Doctors'>
@@ -18,16 +19,18 @@ function CaseStudies() {
           Always grateful for their <br></br> Loyalty and hardwork making us
           even more bigger .
         </h3>
-        <div className='doctorsInfo'>
-          <div></div>
-          <Doctor></Doctor>
-          <div></div>
-          <Doctor></Doctor>
-          <div></div>
-          <Doctor></Doctor>
-          <div></div>
+        <div className='doctorsInfo' ref={doctorsInfoRef}>
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
+          <Doctor />
         </div>
-        <ScrollBtns></ScrollBtns>
+        <ScrollBtns doctorsInfoRef={doctorsInfoRef} />
       </div>
     </>
   )

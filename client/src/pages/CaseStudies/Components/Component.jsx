@@ -1,7 +1,6 @@
 import React from 'react'
 import './style.css'
-
-function Component () {
+function Component() {
   return (
     <>
       <div className='Component'>

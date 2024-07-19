@@ -13,7 +13,7 @@ import Footer from './pages/Footer/Footer'
 import Reviews from './pages/Reviews/Reviews'
 import TopButton from './components/TopButton/TopButton'
 import './topButton.css'
-import useSound from 'use-sound';
+
 function App() {
   const playSound = () => {
     const audio = new Audio('/sounds/loud_btn_clk.wav');

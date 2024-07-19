@@ -1,18 +1,15 @@
-.Component {
-  background: linear-gradient(
-    to bottom,
-    rgba(224, 220, 220, 0.7),
-    rgba(236, 234, 234, 0.7)
-  );
-
-  width: 25%;
-  height: 40%;
+.components .Component {
+  background: linear-gradient(to bottom,
+      rgba(224, 220, 220, 0.7),
+      rgba(236, 234, 234, 0.7));
+  width: 35vw;
   border-radius: 1.5rem;
   padding: 1.3rem;
   cursor: pointer;
   font-weight: 500;
   justify-content: center;
 }
+
 .Component img {
   height: 50%;
   width: 100%;
@@ -20,6 +17,7 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
   margin: 0 auto;
 }
+
 .Component .category {
   padding: 0.3rem 1.2rem;
   border-radius: 1.4rem;
@@ -27,10 +25,12 @@
   width: 50%;
   margin: 1.1rem 0;
 }
+
 .Component .category h3 {
   font-size: 1.6rem;
   font-weight: 500;
 }
+
 .Component .info {
   font-size: 1.2rem;
 }
