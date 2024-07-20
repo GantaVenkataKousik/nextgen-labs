@@ -3,7 +3,23 @@
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   margin: 10vh auto;
-  width: 80%;
+  width: 90vw;
+}
+
+.Reviews .patients-reviews {
+  display: flex;
+  gap: 2vw;
+  cursor: pointer;
+  margin-bottom: 2vh;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .Reviews h1 {

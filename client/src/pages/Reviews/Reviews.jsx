@@ -22,6 +22,9 @@ function Reviews() {
         </div>
         <div className='patients-reviews'>
           <Review></Review>
+          <Review></Review>          <Review></Review>
+          <Review></Review>
+          <Review></Review>          <Review></Review>
           <Review></Review>
           <Review></Review>
         </div>
