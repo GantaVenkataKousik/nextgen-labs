@@ -22,29 +22,18 @@
   -ms-overflow-style: none;
 }
 
-.Reviews h1 {
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 500;
-  margin-bottom: 0.3vh;
+.Reviews .patients-reviews .Review {
+  height: 20vh;
+  min-width: 15vw;
 }
 
-.Reviews h3 {
-  text-align: center;
-  font-size: 1.15rem;
+.Reviews .Review h2 {
+  font-size: 1.1rem;
   font-weight: 500;
-}
-
-.Reviews .Review h1 {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 1vh;
 }
 
 .Reviews .Review h3 {
-  text-align: start;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
 }
 
@@ -57,24 +46,12 @@
   gap: 2rem;
 }
 
-.Reviews .Review .dp {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  margin-bottom: 0.9rem;
-}
-
-.Reviews .Review .dp img {
-  height: 3rem;
-  width: 3rem;
+.Reviews .Review img {
+  height: 2.2rem;
+  width: 2.2rem;
   border-radius: 50%;
 }
 
-.Reviews .Review .dp .user {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
 .Reviews .Review {
   background: linear-gradient(to bottom,
@@ -82,19 +59,14 @@
       rgba(236, 234, 234, 0.5));
   border-radius: 1.5rem;
   padding: 1rem 1.8rem;
-  width: 25vw;
-
 }
 
 .Reviews .Review h2 {
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 1.35rem;
+  line-height: 1.2rem;
 }
 
-.Reviews .Review h4 {
-  font-size: 1.4rem;
-  font-weight: 500;
-}
 
 .Reviews .rating {
   margin: 0.4rem 0;
