@@ -17,7 +17,6 @@ function Component() {
             fast as possible . We are trying our best to bring to bring you the
           </p>
         </div>
-        <h3 className='readmore'>Read more</h3>
       </div>
     </>
   )

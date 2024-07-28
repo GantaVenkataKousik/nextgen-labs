@@ -2,7 +2,7 @@
   background: linear-gradient(to bottom,
       rgba(224, 220, 220, 0.7),
       rgba(236, 234, 234, 0.7));
-  width: 35vw;
+  width: 25vw;
   border-radius: 1.5rem;
   padding: 1.3rem;
   cursor: pointer;
@@ -23,7 +23,7 @@
   border-radius: 1.4rem;
   background: linear-gradient(#a4e4b6, #85d39a);
   width: 50%;
-  margin: 1.1rem 0;
+  margin: 0.5rem 0;
 }
 
 .Component .category h3 {

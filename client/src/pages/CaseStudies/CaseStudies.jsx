@@ -14,7 +14,6 @@ function CaseStudies() {
           <Component></Component>
           <Component></Component>
         </div>
-        <ScrollBtns></ScrollBtns>
       </div>
     </>
   )
