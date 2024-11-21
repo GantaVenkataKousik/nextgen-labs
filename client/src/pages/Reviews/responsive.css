@@ -4,6 +4,7 @@
     width: 90vw;
     justify-content: space-between;
   }
+
   .Reviews .regions div {
     font-size: 1.3rem;
     border: 2px solid #cad1d8;
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: center;
   }
+
   .Reviews .patients-reviews {
     margin: 7vh;
     display: grid;
@@ -22,12 +24,15 @@
     cursor: pointer;
     margin-bottom: 2vh;
   }
+
   .Reviews .patients-reviews {
     margin: 5%;
   }
+
   .Reviews .Review {
     margin: 2vh 0;
   }
+
   .Reviews {
     margin: 0;
   }

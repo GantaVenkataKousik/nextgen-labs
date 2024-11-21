@@ -12,7 +12,6 @@ function CaseStudies() {
         <div className='components'>
           <Component></Component>
           <Component></Component>
-          <Component></Component>
         </div>
       </div>
     </>

@@ -2,8 +2,7 @@
   font-weight: 500;
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
-  margin: 10vh auto;
-  width: 90vw;
+  margin: 10vh;
 }
 
 .Doctors h1 {
@@ -34,4 +33,20 @@
 
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+@media (max-width: 450px) {
+  .Doctors .doctorsInfo {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Doctor {
+    width: 100%;
+  }
+
+  .Doctors {
+    margin: 10vh 0;
+  }
 }

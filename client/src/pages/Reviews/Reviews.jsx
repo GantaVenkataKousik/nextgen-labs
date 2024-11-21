@@ -43,16 +43,7 @@ function Reviews() {
           <Review key={index} review={review} />
         ))}
       </div>
-      <div className='scroll-buttons'>
-        <div className='buttons'>
-          <div className='left button' onClick={scrollLeft}>
-            <i className='fa-solid fa-play' style={{ transform: 'rotate(180deg)' }}></i>
-          </div>
-          <div className='right button' onClick={scrollRight}>
-            <i className='fa-solid fa-play'></i>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 }

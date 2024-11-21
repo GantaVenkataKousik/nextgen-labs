@@ -1,6 +1,6 @@
 const reviewsData = {
     all: [
-        { name: "G. VenkataKousik", role: "Full Stack Developer", rating: 4.0, comment: "Loved their hospitality, the result that I got there was the best in my life. The discounts are very high compared to other restaurants. The order was given in no time, the waiting time is very less.", image: "./assets/images/reviews/m3.jpg" },
+        { name: "G. VenkataKousik", role: "Full Stack Developer", rating: 4.0, comment: "Loved their hospitality, the result that I got there was the best in my life.", image: "./assets/images/reviews/m3.jpg" },
         { name: "Amit Kumar", role: "Software Engineer", rating: 4.5, comment: "Amazing service and great ambiance.", image: "./assets/images/reviews/m1.jpg" },
         { name: "John Doe", role: "Product Manager", rating: 4.2, comment: "A delightful experience with top-notch service.", image: "./assets/images/reviews/m2.jpg" },
         { name: "Alice Smith", role: "UI/UX Designer", rating: 4.8, comment: "The best dining experience I've ever had.", image: "./assets/images/reviews/f1.jpg" },

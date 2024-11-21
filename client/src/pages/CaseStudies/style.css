@@ -3,9 +3,9 @@
   font-family: 'Inria Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
-  width: 90vw;
   overflow: hidden;
-
+  margin: 10vh;
+  height: auto;
 }
 
 .CaseStudies h1 {
@@ -19,10 +19,21 @@
 .CaseStudies .components {
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 3vw;
 }
 
 .CaseStudies .scroll-buttons {
   margin-top: 4vh;
+}
+
+@media (max-width: 500px) {
+  .CaseStudies {
+    margin: 10vh 0;
+  }
+
+  .components .Component {
+    height: auto;
+  }
 }

@@ -2,12 +2,14 @@
   background: linear-gradient(to bottom,
       rgba(224, 220, 220, 0.7),
       rgba(236, 234, 234, 0.7));
-  width: 25vw;
+  width: 400px;
   border-radius: 1.5rem;
   padding: 1.3rem;
   cursor: pointer;
   font-weight: 500;
   justify-content: center;
+  height: auto;
+  margin: 10px;
 }
 
 .Component img {
@@ -50,4 +52,11 @@
   color: #85d39a;
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+@media (max-width: 500px) {
+  .components .Component {
+    width: 100%;
+    /* Full width for smaller screens */
+  }
 }

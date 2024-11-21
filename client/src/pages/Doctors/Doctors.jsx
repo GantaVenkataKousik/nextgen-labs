@@ -23,14 +23,7 @@ function CaseStudies() {
           <Doctor />
           <Doctor />
           <Doctor />
-          <Doctor />
-          <Doctor />
-          <Doctor />
-          <Doctor />
-          <Doctor />
-          <Doctor />
         </div>
-        <ScrollBtns doctorsInfoRef={doctorsInfoRef} />
       </div>
     </>
   )
