@@ -32,26 +32,7 @@ const reviewsData = {
         { name: "David Martinez", role: "Chef", rating: 4.3, comment: "Delicious food and great service.", image: "./assets/images/reviews/m10.jpg" },
         { name: "Jessica Taylor", role: "Photographer", rating: 4.8, comment: "Amazing food and fantastic service.", image: "./assets/images/reviews/f8.jpg" },
     ],
-    china: [
-        { name: "Chen Wei", role: "Data Scientist", rating: 4.0, comment: "Great food and excellent service.", image: "./assets/images/reviews/m4.jpg" },
-        { name: "Li Jing", role: "Software Developer", rating: 4.5, comment: "A wonderful dining experience.", image: "./assets/images/reviews/m11.jpg" },
-        { name: "Wang Fang", role: "Financial Analyst", rating: 4.3, comment: "The food was delicious and the staff were very kind.", image: "./assets/images/reviews/f9.jpg" },
-        { name: "Zhang Wei", role: "Artist", rating: 4.6, comment: "A great place to relax and enjoy a meal.", image: "./assets/images/reviews/m12.jpg" },
-        { name: "Huang Li", role: "Teacher", rating: 4.7, comment: "Excellent service and ambiance.", image: "./assets/images/reviews/f10.jpg" },
-        { name: "Gao Lei", role: "Entrepreneur", rating: 4.4, comment: "The best restaurant experience I've had.", image: "./assets/images/reviews/m13.jpg" },
-        { name: "Sun Mei", role: "Doctor", rating: 4.2, comment: "Good food and fast service.", image: "./assets/images/reviews/f11.jpg" }, { name: "Zhang Wei", role: "Artist", rating: 4.6, comment: "A great place to relax and enjoy a meal.", image: "./assets/images/reviews/m12.jpg" },
-        { name: "Huang Li", role: "Teacher", rating: 4.7, comment: "Excellent service and ambiance.", image: "./assets/images/reviews/f10.jpg" },
-    ],
-    japan: [
-        { name: "Sakura Yamamoto", role: "Marketing Manager", rating: 3.9, comment: "The atmosphere is very cozy and welcoming.", image: "./assets/images/reviews/f2.jpg" },
-        { name: "Hiroshi Tanaka", role: "Business Owner", rating: 4.1, comment: "A wonderful place to dine with family.", image: "./assets/images/reviews/m14.jpg" },
-        { name: "Yuki Nakamura", role: "Designer", rating: 4.3, comment: "Great food and quick service.", image: "./assets/images/reviews/f12.jpg" },
-        { name: "Kenji Sato", role: "Engineer", rating: 4.4, comment: "A pleasant dining experience.", image: "./assets/images/reviews/m15.jpg" },
-        { name: "Aiko Suzuki", role: "Teacher", rating: 4.6, comment: "The staff were very friendly and the food was excellent.", image: "./assets/images/reviews/f13.jpg" },
-        { name: "Kenta Yamashita", role: "Doctor", rating: 4.5, comment: "I enjoyed the meal and the ambiance.", image: "./assets/images/reviews/m16.jpg" },
-        { name: "Miyuki Matsumoto", role: "Lawyer", rating: 4.2, comment: "A great place for a family dinner.", image: "./assets/images/reviews/f14.jpg" }, { name: "Kenta Yamashita", role: "Doctor", rating: 4.5, comment: "I enjoyed the meal and the ambiance.", image: "./assets/images/reviews/m16.jpg" },
-        { name: "Miyuki Matsumoto", role: "Lawyer", rating: 4.2, comment: "A great place for a family dinner.", image: "./assets/images/reviews/f14.jpg" }
-    ]
+
 };
 
 export default reviewsData;

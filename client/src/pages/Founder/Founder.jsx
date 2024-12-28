@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-function Founder () {
+function Founder() {
   return (
     <>
       <div className='Founder'>
@@ -15,9 +15,9 @@ function Founder () {
         <div className='founderDetails'>
           <div></div>
           <div className='founder'>
-            <img src='./assets/images/founder/sridevi.png'></img>
+            <img src='./assets/images/doctors/d2.png'></img>
             <div className='info'>
-              <h2>K.M. Sridevi</h2>
+              <h2>K.M. Sestain</h2>
               <h2>Founder & CEO</h2>
               <h3>Expert in Neuro Science</h3>
             </div>

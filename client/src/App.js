@@ -22,11 +22,6 @@ function App() {
 
   return (
     <div>
-      <div className='btn'>
-        <Link to='home' smooth={true} duration={3000} onClick={playSound}>
-          <i className='fa-solid fa-play'></i>
-        </Link>
-      </div>
       <Nav />
       <Element name='home'>
         <Home />
